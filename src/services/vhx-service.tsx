@@ -1,4 +1,4 @@
-// src/services/vhx-service.ts
+// src/services/vhx-service.tsx
 import { StrictObjectKVService } from '@cond8-ai/core';
 import { h, JSX, VNode } from 'preact';
 import { render } from 'preact-render-to-string';

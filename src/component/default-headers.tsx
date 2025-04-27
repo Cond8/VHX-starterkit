@@ -1,4 +1,4 @@
-// src/_stage/components/default-headers.tsx
+// src/component/default-headers.tsx
 import { JSX } from 'preact';
 
 export interface DefaultAppHeadersProps {

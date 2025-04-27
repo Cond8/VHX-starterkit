@@ -1,4 +1,4 @@
-// src/_stage/actors/vhx.ts
+// src/actors/vhx.ts
 import { C8RO, CoreRedprint } from '@cond8-ai/core';
 import { JSX } from 'preact';
 import { VHXService } from '../services/vhx-service';

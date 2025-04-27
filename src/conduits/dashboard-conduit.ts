@@ -1,3 +1,4 @@
+// src/conduits/dashboard-conduit.ts
 import { CoreRedprint, StrictObjectKVService } from '@cond8-ai/core';
 import { Context } from 'hono';
 import { createVHXActors } from '../actors/vhx';

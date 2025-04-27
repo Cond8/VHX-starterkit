@@ -1,3 +1,4 @@
+// src/directors/landing-page-director.tsx
 import { createDirector } from '@cond8-ai/core';
 import { Context } from 'hono';
 import { DefaultHeaders } from '../component/default-headers';
