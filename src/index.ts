@@ -6,6 +6,8 @@ type Env = {};
 
 const app = new Hono<{ Bindings: Env }>();
 
+app.get('/live-reload', LiveReloadServer);
+
 app.get('/', async c => {
 	const html = await LandingPageDirector(c);
 	return c.html(html, 200, {
