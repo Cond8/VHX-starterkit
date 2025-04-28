@@ -24,6 +24,7 @@
     "miniflare": "^4.20250416.0",
     "openai": "^4.95.0",
     "preact": "^10.26.5",
+    "preact-icons": "^2.2.5",
     "preact-render-to-string": "^6.5.13",
     "tailwind-merge": "^3.2.0",
     "zod": "^3.24.3"

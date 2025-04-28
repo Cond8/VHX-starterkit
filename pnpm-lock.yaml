@@ -1,4 +1,3 @@
-# pnpm-lock.yaml
 lockfileVersion: '9.0'
 
 settings:
@@ -45,6 +44,9 @@ importers:
       preact:
         specifier: ^10.26.5
         version: 10.26.5
+      preact-icons:
+        specifier: ^2.2.5
+        version: 2.2.5(preact@10.26.5)
       preact-render-to-string:
         specifier: ^6.5.13
         version: 6.5.13(preact@10.26.5)
@@ -1414,6 +1416,16 @@ packages:
   postcss@8.5.3:
     resolution: {integrity: sha512-dle9A3yYxlBSrt8Fu+IpjGT8SY8hN0mlaA6GY8t0P5PjIOZemULz/E2Bnm/2dcUOena75OTNkHI76uZBNUUq3A==}
     engines: {node: ^10 || ^12 || >=14}
+
+  preact-icon-base@2.0.6:
+    resolution: {integrity: sha512-jbjPcdhUJ2/YBLHmedAnMGHfPzAfLEMVFVfLnKoHQAuVcpqL693NRYw2sFRoMd+A8tC4tRYcKKnZBKGUtdhLNQ==}
+    peerDependencies:
+      preact: '*'
+
+  preact-icons@2.2.5:
+    resolution: {integrity: sha512-ydIuNIZK195kjrL06Giiwg/RLxQoYS/0pPz5NjchQQqr7WCNNezF+V9k/qD4imr2Wa4K/nrUc3/D5lvijSG1mg==}
+    peerDependencies:
+      preact: ^7.2.0
 
   preact-render-to-string@6.5.13:
     resolution: {integrity: sha512-iGPd+hKPMFKsfpR2vL4kJ6ZPcFIoWZEcBf0Dpm3zOpdVvj77aY8RlLiQji5OMrngEyaxGogeakTb54uS2FvA6w==}
@@ -2830,6 +2842,15 @@ snapshots:
       nanoid: 3.3.11
       picocolors: 1.1.1
       source-map-js: 1.2.1
+
+  preact-icon-base@2.0.6(preact@10.26.5):
+    dependencies:
+      preact: 10.26.5
+
+  preact-icons@2.2.5(preact@10.26.5):
+    dependencies:
+      preact: 10.26.5
+      preact-icon-base: 2.0.6(preact@10.26.5)
 
   preact-render-to-string@6.5.13(preact@10.26.5):
     dependencies:

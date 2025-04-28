@@ -1,6 +1,7 @@
 // src/index.ts
 import { Hono } from 'hono';
 import LandingPageDirector from './directors/landing-page-director';
+import { LiveReloadServer } from './utils/live-reload-server';
 
 type Env = {};
 
